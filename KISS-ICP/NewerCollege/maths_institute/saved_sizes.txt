@@ -1,0 +1,12 @@
+Files:             compressed_rosbag_0p2.mcap_sqlite3_0.db3
+Bag size:          3.4 GiB
+Files:             compressed_rosbag_0p4.mcap_sqlite3_0.db3
+Bag size:          3.4 GiB
+Files:             compressed_rosbag_0p6.mcap_sqlite3_0.db3
+Bag size:          3.4 GiB
+Files:             compressed_rosbag_0p8.mcap_sqlite3_0.db3
+Bag size:          3.3 GiB
+Files:             compressed_rosbag_1.mcap_sqlite3_0.db3
+Bag size:          3.5 GiB
+Files:             compressed_rosbag_3.mcap_sqlite3_0.db3
+Bag size:          3.4 GiB
