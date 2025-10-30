@@ -1,0 +1,184 @@
+Files:             draco_ros2_3_6_16_0.db3
+Bag size:          24.4 GiB
+Files:             compressed_rosbag_0p2.mcap_sqlite3_0.db3
+Bag size:          24.8 GiB
+Files:             draco_ros2_9_6_20_0.db3
+Bag size:          29.9 GiB
+Files:             compressed_rosbag_0p4.mcap_sqlite3_0.db3
+Bag size:          24.5 GiB
+Files:             draco_ros2_9_3_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_3_9_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_9_6_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_9_0_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_9_6_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_9_3_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_6_6_16_0.db3
+Bag size:          24.4 GiB
+Files:             draco_ros2_3_9_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_9_0_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_10_10_10_0.db3
+Bag size:          21.8 GiB
+Files:             draco_ros2_3_3_14_0.db3
+Bag size:          18.4 GiB
+Files:             draco_ros2_10_10_7_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_6_6_12_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_6_3_20_0.db3
+Bag size:          29.5 GiB
+Files:             draco_ros2_10_10_11_0.db3
+Bag size:          22.0 GiB
+Files:             compressed_rosbag_0p1.mcap_sqlite3_0.db3
+Bag size:          25.1 GiB
+Files:             draco_ros2_3_9_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_9_9_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_6_3_16_0.db3
+Bag size:          24.4 GiB
+Files:             draco_ros2_10_10_9_0.db3
+Bag size:          21.8 GiB
+Files:             draco_ros2_9_3_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_9_6_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_9_0_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_0_6_20_0.db3
+Bag size:          29.5 GiB
+Files:             draco_ros2_9_9_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_10_10_8_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_3_3_18_0.db3
+Bag size:          20.6 GiB
+Files:             draco_ros2_10_10_6_0.db3
+Bag size:          21.7 GiB
+Files:             compressed_rosbag_0p3.mcap_sqlite3_0.db3
+Bag size:          24.6 GiB
+Files:             draco_ros2_6_9_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_3_6_14_0.db3
+Bag size:          22.7 GiB
+Files:             compressed_rosbag_0p8.mcap_sqlite3_0.db3
+Bag size:          24.2 GiB
+Files:             draco_ros2_0_0_12_0.db3
+Bag size:          17.3 GiB
+Files:             draco_ros2_6_9_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_3_3_20_0.db3
+Bag size:          21.6 GiB
+Files:             draco_ros2_6_6_14_0.db3
+Bag size:          22.7 GiB
+Files:             draco_ros2_3_9_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_3_0_20_0.db3
+Bag size:          21.6 GiB
+Files:             draco_ros2_3_6_18_0.db3
+Bag size:          26.7 GiB
+Files:             draco_ros2_0_9_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_0_0_16_0.db3
+Bag size:          19.5 GiB
+Files:             draco_ros2_6_9_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_3_6_12_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_0_0_14_0.db3
+Bag size:          18.4 GiB
+Files:             draco_ros2_9_0_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_6_0_18_0.db3
+Bag size:          26.7 GiB
+Files:             draco_ros2_0_9_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_0_0_18_0.db3
+Bag size:          20.6 GiB
+Files:             draco_ros2_6_9_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_9_0_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_0_6_18_0.db3
+Bag size:          26.7 GiB
+Files:             compressed_rosbag_0p6.mcap_sqlite3_0.db3
+Bag size:          24.3 GiB
+Files:             draco_ros2_9_3_16_0.db3
+Bag size:          24.9 GiB
+Files:             draco_ros2_6_9_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_6_6_18_0.db3
+Bag size:          26.7 GiB
+Files:             draco_ros2_9_3_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_6_3_14_0.db3
+Bag size:          22.7 GiB
+Files:             draco_ros2_0_3_12_0.db3
+Bag size:          17.3 GiB
+Files:             draco_ros2_0_6_14_0.db3
+Bag size:          22.7 GiB
+Files:             draco_ros2_6_6_20_0.db3
+Bag size:          29.5 GiB
+Files:             draco_ros2_3_0_14_0.db3
+Bag size:          18.4 GiB
+Files:             draco_ros2_0_3_18_0.db3
+Bag size:          20.6 GiB
+Files:             draco_ros2_9_9_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_6_3_18_0.db3
+Bag size:          26.7 GiB
+Files:             draco_ros2_3_0_12_0.db3
+Bag size:          17.3 GiB
+Files:             draco_ros2_6_0_14_0.db3
+Bag size:          22.7 GiB
+Files:             draco_ros2_9_9_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_6_3_12_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_3_0_18_0.db3
+Bag size:          20.6 GiB
+Files:             draco_ros2_0_3_14_0.db3
+Bag size:          18.4 GiB
+Files:             draco_ros2_6_0_16_0.db3
+Bag size:          24.4 GiB
+Files:             draco_ros2_0_6_12_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_6_0_20_0.db3
+Bag size:          29.5 GiB
+Files:             draco_ros2_9_6_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_3_9_20_0.db3
+Bag size:          29.9 GiB
+Files:             draco_ros2_0_3_16_0.db3
+Bag size:          19.5 GiB
+Files:             draco_ros2_0_0_20_0.db3
+Bag size:          21.6 GiB
+Files:             draco_ros2_9_9_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_0_3_20_0.db3
+Bag size:          21.6 GiB
+Files:             draco_ros2_0_9_14_0.db3
+Bag size:          23.3 GiB
+Files:             draco_ros2_3_3_16_0.db3
+Bag size:          19.5 GiB
+Files:             draco_ros2_6_0_12_0.db3
+Bag size:          21.7 GiB
+Files:             draco_ros2_0_6_16_0.db3
+Bag size:          24.4 GiB
+Files:             draco_ros2_0_9_18_0.db3
+Bag size:          27.2 GiB
+Files:             draco_ros2_3_6_20_0.db3
+Bag size:          29.5 GiB
+Files:             draco_ros2_3_3_12_0.db3
+Bag size:          17.3 GiB
+Files:             draco_ros2_0_9_12_0.db3
+Bag size:          22.3 GiB
+Files:             draco_ros2_3_0_16_0.db3
+Bag size:          19.5 GiB

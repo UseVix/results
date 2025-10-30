@@ -2,11 +2,23 @@ Files:             compressed_rosbag_0p2.mcap_sqlite3_0.db3
 Bag size:          3.4 GiB
 Files:             compressed_rosbag_0p4.mcap_sqlite3_0.db3
 Bag size:          3.4 GiB
-Files:             compressed_rosbag_0p6.mcap_sqlite3_0.db3
+Files:             draco_ros2_10_10_10_0.db3
+Bag size:          3.0 GiB
+Files:             draco_ros2_10_10_7_0.db3
+Bag size:          3.0 GiB
+Files:             draco_ros2_10_10_11_0.db3
+Bag size:          3.0 GiB
+Files:             compressed_rosbag_0p1.mcap_sqlite3_0.db3
+Bag size:          3.5 GiB
+Files:             draco_ros2_10_10_9_0.db3
+Bag size:          3.0 GiB
+Files:             draco_ros2_10_10_8_0.db3
+Bag size:          3.0 GiB
+Files:             draco_ros2_10_10_6_0.db3
+Bag size:          3.0 GiB
+Files:             compressed_rosbag_0p3.mcap_sqlite3_0.db3
 Bag size:          3.4 GiB
 Files:             compressed_rosbag_0p8.mcap_sqlite3_0.db3
 Bag size:          3.3 GiB
-Files:             compressed_rosbag_1.mcap_sqlite3_0.db3
-Bag size:          3.5 GiB
-Files:             compressed_rosbag_3.mcap_sqlite3_0.db3
+Files:             compressed_rosbag_0p6.mcap_sqlite3_0.db3
 Bag size:          3.4 GiB
