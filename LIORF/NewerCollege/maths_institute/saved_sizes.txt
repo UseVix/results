@@ -1,0 +1,11 @@
+./draco_bags/draco_ES_10_DS_10_QP_10.bag /out_draco_ES_10_DS_10_QP_10/draco draco_point_cloud_transport/CompressedPointCloud2 2.963580548763275 GB
+./draco_bags/draco_ES_10_DS_10_QP_11.bag /out_draco_ES_10_DS_10_QP_11/draco draco_point_cloud_transport/CompressedPointCloud2 2.9909693151712418 GB
+./draco_bags/draco_ES_10_DS_10_QP_6.bag /out_draco_ES_10_DS_10_QP_6/draco draco_point_cloud_transport/CompressedPointCloud2 2.94609447568655 GB
+./draco_bags/draco_ES_10_DS_10_QP_7.bag /out_draco_ES_10_DS_10_QP_7/draco draco_point_cloud_transport/CompressedPointCloud2 2.947584740817547 GB
+./draco_bags/draco_ES_10_DS_10_QP_8.bag /out_draco_ES_10_DS_10_QP_8/draco draco_point_cloud_transport/CompressedPointCloud2 2.948498796671629 GB
+./draco_bags/draco_ES_10_DS_10_QP_9.bag /out_draco_ES_10_DS_10_QP_9/draco draco_point_cloud_transport/CompressedPointCloud2 2.951203417032957 GB
+/dataset/./NewerCollege/maths_institute/bag/cloudini/maths_easy_cloudini_0p01.bag /os_cloud_node/points sensor_msgs/PointCloud2 12.656670436263084 GB
+/dataset/./NewerCollege/maths_institute/bag/cloudini/maths_easy_cloudini_0p5.bag /os_cloud_node/points sensor_msgs/PointCloud2 12.656670436263084 GB
+/dataset/./NewerCollege/maths_institute/bag/cloudini/maths_easy_cloudini_0p001.bag /os_cloud_node/points sensor_msgs/PointCloud2 12.656670436263084 GB
+/dataset/./NewerCollege/maths_institute/bag/cloudini/maths_easy_cloudini_0p1.bag /os_cloud_node/points sensor_msgs/PointCloud2 12.656670436263084 GB
+/dataset/./NewerCollege/maths_institute/bag/cloudini/maths_easy_cloudini_0p2.bag /os_cloud_node/points sensor_msgs/PointCloud2 12.656670436263084 GB

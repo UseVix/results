@@ -1,0 +1,5 @@
+./draco_bags/draco_ES_10_DS_10_QP_10.bag /out_draco_ES_10_DS_10_QP_10/draco draco_point_cloud_transport/CompressedPointCloud2 1.4796609468758106 GB
+./draco_bags/draco_ES_10_DS_10_QP_6.bag /out_draco_ES_10_DS_10_QP_6/draco draco_point_cloud_transport/CompressedPointCloud2 1.4206499010324478 GB
+./draco_bags/draco_ES_10_DS_10_QP_7.bag /out_draco_ES_10_DS_10_QP_7/draco draco_point_cloud_transport/CompressedPointCloud2 1.4245495460927486 GB
+./draco_bags/draco_ES_10_DS_10_QP_8.bag /out_draco_ES_10_DS_10_QP_8/draco draco_point_cloud_transport/CompressedPointCloud2 1.434891551733017 GB
+./draco_bags/draco_ES_10_DS_10_QP_9.bag /out_draco_ES_10_DS_10_QP_9/draco draco_point_cloud_transport/CompressedPointCloud2 1.4522951655089855 GB
