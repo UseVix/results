@@ -35,8 +35,11 @@ for key in sorted(selected_files):
 
         precision = f"{key:.3g}".replace(".", "p")
         data_sequence_match = data_sequence_regex.search(sys.argv[1])
+        first_data_sequence_name = {data_sequence_match.group(1)}
+        if first_data_sequence_name=="maths_institute":
+            second_data_sequence_name = "maths_easy"
         kc_size = get_kc_size(
-            f"/dataset/NewerCollege/{data_sequence_match.group(1)}/bag/cloudini/{data_sequence_match.group(1)}_res{precision}/restored_rosbag/data_0.mcap"
+            f"/dataset/NewerCollege/{first_data_sequence_name}/bag/cloudini/{second_data_sequence_name}_res{precision}/restored_rosbag/data_0.mcap"
         )
         print(f"0p{key}: {selected_files[key]} {kc_size}")
     else:
