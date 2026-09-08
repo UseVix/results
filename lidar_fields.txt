@@ -1,0 +1,4 @@
+NewerCollege,Ouster OS-0-128,"x":float32,"y":float32,"z":float32,"intensity":float32,"t":uint32,"reflectivity":uint16,"ring":uint8,"ambient":uint16,"range":uint32
+VBR,Campus,Ciampino,Ouster OS0-128,"x":float32,"y":float32,"z":float32,"intensity":float32,"t":uint32,"reflectivity":uint16,"ring":uint8,"ambient":uint16,"range":uint32
+VBR,DIAG,Spagna,Colosseo,Pincio,Ouster Ouster OS1-64 ,"x":float32,"y":float32,"z":float32,"intensity":float32,"t":uint32,"reflectivity":uint16,"ring":uint8,"ambient":uint16,"range":uint32
+

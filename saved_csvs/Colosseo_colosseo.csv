@@ -1,0 +1,5 @@
+total_data_size(byte)->,67088479687
+order,topic_name,topic_size,percentage
+1,/ouster/points,67076372235,99.98195300883775
+2,/loam_opensource_aft_mapped,6387852,0.009521533398584078
+3,/loam_opensource_aft_mapped_part,5719600,0.008525457763664764

@@ -1,0 +1,5 @@
+total_data_size(byte)->,99073723106
+order,topic_name,topic_size,percentage
+1,/os_cloud_node/points,98918500450,99.84332610995762
+2,/alphasense_driver_ros/imu,104290828,0.10526588153795145
+3,/os_cloud_node/imu,50931828,0.0514080085044422

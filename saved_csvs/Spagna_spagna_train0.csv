@@ -1,0 +1,5 @@
+total_data_size(byte)->,107621763820
+order,topic_name,topic_size,percentage
+1,/ouster/points,107528982080,99.91378905464217
+2,/imu/data,46958744,0.04363312989233259
+3,/ouster/imu,45822996,0.04257781546550386

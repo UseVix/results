@@ -1,0 +1,6 @@
+total_data_size(byte)->,59020750605
+order,topic_name,topic_size,percentage
+1,/ouster/points,58896690805,99.78980307988579
+2,/imu/data,51438088,0.08715254799833463
+3,/ouster/imu,50188572,0.08503546885719923
+4,/ciampino_train0_es,22433140,0.0380089032586779

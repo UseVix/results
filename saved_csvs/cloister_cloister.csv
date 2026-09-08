@@ -1,0 +1,14 @@
+total_data_size(byte)->,23750133701
+order,topic_name,topic_size,percentage
+1,/os_cloud_node/points,17541329300,73.85781284785534
+2,/os_node/lidar_packets,4443375765,18.70884526773385
+3,/alphasense_driver_ros/cam0/compressed,487704779,2.053482246205061
+4,/alphasense_driver_ros/cam1/compressed,448544290,1.8885969049560087
+5,/alphasense_driver_ros/cam4/compressed,418113638,1.760468565203889
+6,/alphasense_driver_ros/cam3/compressed,379936843,1.5997250701119328
+7,/alphasense_driver_ros/imu,18490740,0.07785530908072928
+8,/os_cloud_node/imu,9030852,0.03802442594089378
+9,/loam_opensource,2018512,0.008498950049763343
+10,/os_node/imu_packets,1588761,0.006689482341453536
+11,/tf_static,196,8.252585120889125e-07
+12,/alphasense_driver_ros/serial_number,25,1.0526256531746336e-07
