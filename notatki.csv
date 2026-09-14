@@ -1,0 +1,24 @@
+,,,Cloudini,Draco,error lower than uncompressed,same compression ratio error advantage,same error compression advantage
+campus,Loam,max,1,,1,1,
+campus,Loam,rmse,1,,1,1,
+campus,Spark-fast-lio,max,1,,1,1,
+campus,Spark-fast-lio,rmse,1,,1,1,
+ciampino,Loam,max,,,,,
+ciampino,Loam,rmse,,,,,
+ciampino,Spark-fast-lio,max,,1,1,1,
+ciampino,Spark-fast-lio,rmse,,1,1,1,
+cloister,Kiss-icp,max,,1,,,1
+cloister,Kiss-icp,rmse,,1,,,1
+cloister,Loam,max,localisation,ratio,,,
+cloister,Loam,rmse,localisation,ratio,,,
+cloister,Spark-fast-lio,max,localisation,ratio,,,
+cloister,Spark-fast-lio,rmse,localisation,ratio,,,
+colloseo,Loam,max,,1,1,,1
+colloseo,Loam,rmse,,1,1,,1
+colloseo,Spark-fast-lio,max,localisation,ratio,1,,
+colloseo,Spark-fast-lio,rmse,localisation,ratio,1,,
+diag,Loam,max,,,,,
+diag,Loam,rmse,,1,1,,
+diag,Spark-fast-lio,max,,1,1,,
+diag,Spark-fast-lio,rmse,,1,1,,
+,,,,,1,,
