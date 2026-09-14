@@ -1,0 +1,519 @@
+[DEBUG] [1789384364.063096047] [rclcpp]: signal handler installed
+[DEBUG] [1789384364.063135600] [rclcpp]: deferred_signal_handler(): waiting for SIGINT/SIGTERM or uninstall
+[DEBUG] [1789384364.063247825] [rcl]: Initializing node 'decompressor' in namespace ''
+[DEBUG] [1789384364.063260854] [rcl]: Using domain ID of '0'
+[DEBUG] [1789384364.067276141] [rcl]: Initializing publisher for topic name '/rosout'
+[DEBUG] [1789384364.067304025] [rcl]: Expanded and remapped topic name '/rosout'
+[DEBUG] [1789384364.068054050] [rcl]: Publisher initialized
+[DEBUG] [1789384364.068069886] [rcl]: Node initialized
+[DEBUG] [1789384364.068132604] [rcl]: Initializing service for service name 'decompressor/get_parameters'
+[DEBUG] [1789384364.068139833] [rcl]: Expanded and remapped service name '/decompressor/get_parameters'
+[DEBUG] [1789384364.068584840] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.068596015] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/get_parametersRequest
+[DEBUG] [1789384364.068599973] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/get_parametersReply
+[DEBUG] [1789384364.068603163] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.068638106] [rcl]: Service initialized
+[DEBUG] [1789384364.068655905] [rcl]: Initializing service for service name 'decompressor/get_parameter_types'
+[DEBUG] [1789384364.068661918] [rcl]: Expanded and remapped service name '/decompressor/get_parameter_types'
+[DEBUG] [1789384364.068870497] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.068878531] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/get_parameter_typesRequest
+[DEBUG] [1789384364.068881997] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/get_parameter_typesReply
+[DEBUG] [1789384364.068885198] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.068909083] [rcl]: Service initialized
+[DEBUG] [1789384364.068918755] [rcl]: Initializing service for service name 'decompressor/set_parameters'
+[DEBUG] [1789384364.068924310] [rcl]: Expanded and remapped service name '/decompressor/set_parameters'
+[DEBUG] [1789384364.069106388] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.069114213] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/set_parametersRequest
+[DEBUG] [1789384364.069117602] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/set_parametersReply
+[DEBUG] [1789384364.069120722] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.069144949] [rcl]: Service initialized
+[DEBUG] [1789384364.069155471] [rcl]: Initializing service for service name 'decompressor/set_parameters_atomically'
+[DEBUG] [1789384364.069161178] [rcl]: Expanded and remapped service name '/decompressor/set_parameters_atomically'
+[DEBUG] [1789384364.069380959] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.069389002] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/set_parameters_atomicallyRequest
+[DEBUG] [1789384364.069392569] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/set_parameters_atomicallyReply
+[DEBUG] [1789384364.069395730] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.069432363] [rcl]: Service initialized
+[DEBUG] [1789384364.069448628] [rcl]: Initializing service for service name 'decompressor/describe_parameters'
+[DEBUG] [1789384364.069454389] [rcl]: Expanded and remapped service name '/decompressor/describe_parameters'
+[DEBUG] [1789384364.069657947] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.069665972] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/describe_parametersRequest
+[DEBUG] [1789384364.069669526] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/describe_parametersReply
+[DEBUG] [1789384364.069672638] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.069696355] [rcl]: Service initialized
+[DEBUG] [1789384364.069706163] [rcl]: Initializing service for service name 'decompressor/list_parameters'
+[DEBUG] [1789384364.069711873] [rcl]: Expanded and remapped service name '/decompressor/list_parameters'
+[DEBUG] [1789384364.069898777] [rmw_fastrtps_cpp]: ************ Service Details *********
+[DEBUG] [1789384364.069906533] [rmw_fastrtps_cpp]: Sub Topic rq/decompressor/list_parametersRequest
+[DEBUG] [1789384364.069926068] [rmw_fastrtps_cpp]: Pub Topic rr/decompressor/list_parametersReply
+[DEBUG] [1789384364.069930052] [rmw_fastrtps_cpp]: ***********
+[DEBUG] [1789384364.069954139] [rcl]: Service initialized
+[DEBUG] [1789384364.069967343] [rcl]: Initializing publisher for topic name '/parameter_events'
+[DEBUG] [1789384364.069973111] [rcl]: Expanded and remapped topic name '/parameter_events'
+[DEBUG] [1789384364.070567709] [rcl]: Publisher initialized
+[DEBUG] [1789384364.070652996] [rcl]: Initializing subscription for topic name '/parameter_events'
+[DEBUG] [1789384364.070661563] [rcl]: Expanded and remapped topic name '/parameter_events'
+[DEBUG] [1789384364.070830968] [rcl]: Subscription initialized
+[DEBUG] [1789384364.070916735] [rcl]: Initializing publisher for topic name '/lidar_packets_decompressed'
+[DEBUG] [1789384364.070925071] [rcl]: Expanded and remapped topic name '/lidar_packets_decompressed'
+[DEBUG] [1789384364.071622233] [rcl]: Publisher initialized
+[WARN] [1789384364.071642153] [decompressor]: Message is NOT plain (or middleware lacks support). Falling back to standard copy.
+[DEBUG] [1789384364.071677697] [rcl]: Initializing subscription for topic name '/compressed_lidar_packets'
+[DEBUG] [1789384364.071683906] [rcl]: Expanded and remapped topic name '/compressed_lidar_packets'
+[DEBUG] [1789384364.072072011] [rcl]: Subscription initialized
+[DEBUG] [1789384364.072762734] [rcl]: Initializing wait set with '0' subscriptions, '2' guard conditions, '0' timers, '0' clients, '0' services
+[DEBUG] [1789384364.072828083] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072853874] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072879146] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072886266] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072896426] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072901879] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072911085] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072916267] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072925124] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072930342] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072938748] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072943954] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072952332] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072957451] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072965802] [rcl]: Subscription taking message
+[DEBUG] [1789384364.072970907] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.072993210] [rcl]: Subscription taking message
+[DEBUG] [1789384364.073000062] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.119498041] [rcl]: Subscription taking message
+[DEBUG] [1789384364.119527112] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.119683799] [rcl]: Subscription taking message
+[DEBUG] [1789384364.119702171] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.119726951] [rcl]: Subscription taking message
+[DEBUG] [1789384364.119739541] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.119753255] [rcl]: Subscription taking message
+[DEBUG] [1789384364.119759320] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.119768548] [rcl]: Subscription taking message
+[DEBUG] [1789384364.119773929] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.542037767] [rcl]: Subscription taking message
+[DEBUG] [1789384364.542302861] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.547610190] [decompressor]: DecompressAndPublish time: 4387322 ns
+[DEBUG] [1789384364.552933116] [rcl]: Subscription taking message
+[DEBUG] [1789384364.553092621] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.555558560] [decompressor]: DecompressAndPublish time: 1961024 ns
+[DEBUG] [1789384364.561173552] [rcl]: Subscription taking message
+[DEBUG] [1789384364.561243210] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.563599846] [decompressor]: DecompressAndPublish time: 1897803 ns
+[DEBUG] [1789384364.767706909] [rcl]: Subscription taking message
+[DEBUG] [1789384364.767794813] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.773613405] [decompressor]: DecompressAndPublish time: 4702007 ns
+[DEBUG] [1789384364.954372074] [rcl]: Subscription taking message
+[DEBUG] [1789384364.954415070] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384364.956847304] [decompressor]: DecompressAndPublish time: 1999151 ns
+[DEBUG] [1789384365.140943409] [rcl]: Subscription taking message
+[DEBUG] [1789384365.140980832] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384365.143348404] [decompressor]: DecompressAndPublish time: 1967228 ns
+[DEBUG] [1789384365.367156955] [rcl]: Subscription taking message
+[DEBUG] [1789384365.367244648] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384365.372979902] [decompressor]: DecompressAndPublish time: 4619185 ns
+[DEBUG] [1789384365.567728833] [rcl]: Subscription taking message
+[DEBUG] [1789384365.567815873] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384365.573581288] [decompressor]: DecompressAndPublish time: 4646923 ns
+[DEBUG] [1789384365.772786357] [rcl]: Subscription taking message
+[DEBUG] [1789384365.772871119] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384365.778622598] [decompressor]: DecompressAndPublish time: 4638845 ns
+[DEBUG] [1789384365.968855283] [rcl]: Subscription taking message
+[DEBUG] [1789384365.968940017] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384365.974631908] [decompressor]: DecompressAndPublish time: 4581114 ns
+[DEBUG] [1789384366.173159647] [rcl]: Subscription taking message
+[DEBUG] [1789384366.173246824] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384366.178780756] [decompressor]: DecompressAndPublish time: 4420349 ns
+[DEBUG] [1789384366.372219731] [rcl]: Subscription taking message
+[DEBUG] [1789384366.372308246] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384366.378577731] [decompressor]: DecompressAndPublish time: 5137876 ns
+[DEBUG] [1789384366.572428605] [rcl]: Subscription taking message
+[DEBUG] [1789384366.572513994] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384366.578760291] [decompressor]: DecompressAndPublish time: 5141795 ns
+[DEBUG] [1789384366.772961801] [rcl]: Subscription taking message
+[DEBUG] [1789384366.773047321] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384366.778720325] [decompressor]: DecompressAndPublish time: 4558509 ns
+[DEBUG] [1789384366.973995080] [rcl]: Subscription taking message
+[DEBUG] [1789384366.974077272] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384366.979606863] [decompressor]: DecompressAndPublish time: 4413697 ns
+[DEBUG] [1789384367.177020134] [rcl]: Subscription taking message
+[DEBUG] [1789384367.177096929] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384367.182500093] [decompressor]: DecompressAndPublish time: 4509985 ns
+[DEBUG] [1789384367.376114187] [rcl]: Subscription taking message
+[DEBUG] [1789384367.376202194] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384367.381310730] [decompressor]: DecompressAndPublish time: 4130486 ns
+[DEBUG] [1789384367.576509963] [rcl]: Subscription taking message
+[DEBUG] [1789384367.576610284] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384367.581607665] [decompressor]: DecompressAndPublish time: 4107183 ns
+[DEBUG] [1789384367.776810756] [rcl]: Subscription taking message
+[DEBUG] [1789384367.776877404] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384367.781840459] [decompressor]: DecompressAndPublish time: 4073819 ns
+[DEBUG] [1789384367.976828563] [rcl]: Subscription taking message
+[DEBUG] [1789384367.976897029] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384367.981868914] [decompressor]: DecompressAndPublish time: 4080735 ns
+[DEBUG] [1789384368.176754466] [rcl]: Subscription taking message
+[DEBUG] [1789384368.176821472] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384368.181816239] [decompressor]: DecompressAndPublish time: 4105199 ns
+[DEBUG] [1789384368.377054755] [rcl]: Subscription taking message
+[DEBUG] [1789384368.377121096] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384368.382059159] [decompressor]: DecompressAndPublish time: 4046202 ns
+[DEBUG] [1789384368.577909633] [rcl]: Subscription taking message
+[DEBUG] [1789384368.577996427] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384368.583701090] [decompressor]: DecompressAndPublish time: 4584054 ns
+[DEBUG] [1789384368.779143922] [rcl]: Subscription taking message
+[DEBUG] [1789384368.779226341] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384368.784712303] [decompressor]: DecompressAndPublish time: 4376159 ns
+[DEBUG] [1789384368.978461056] [rcl]: Subscription taking message
+[DEBUG] [1789384368.978542821] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384368.983908803] [decompressor]: DecompressAndPublish time: 4252940 ns
+[DEBUG] [1789384369.152826352] [rcl]: Subscription taking message
+[DEBUG] [1789384369.152886824] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384369.156743157] [decompressor]: DecompressAndPublish time: 3167564 ns
+[DEBUG] [1789384369.380770079] [rcl]: Subscription taking message
+[DEBUG] [1789384369.380855850] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384369.386054207] [decompressor]: DecompressAndPublish time: 4143109 ns
+[DEBUG] [1789384369.581854263] [rcl]: Subscription taking message
+[DEBUG] [1789384369.581921927] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384369.586878497] [decompressor]: DecompressAndPublish time: 4067567 ns
+[DEBUG] [1789384369.785599013] [rcl]: Subscription taking message
+[DEBUG] [1789384369.785683394] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384369.790812891] [decompressor]: DecompressAndPublish time: 4047125 ns
+[DEBUG] [1789384369.982351992] [rcl]: Subscription taking message
+[DEBUG] [1789384369.982431804] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384369.987304607] [decompressor]: DecompressAndPublish time: 3986407 ns
+[DEBUG] [1789384370.181951335] [rcl]: Subscription taking message
+[DEBUG] [1789384370.182018545] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384370.186964979] [decompressor]: DecompressAndPublish time: 4056363 ns
+[DEBUG] [1789384370.363449081] [rcl]: Subscription taking message
+[DEBUG] [1789384370.363509608] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384370.368045409] [decompressor]: DecompressAndPublish time: 3735187 ns
+[DEBUG] [1789384370.586980924] [rcl]: Subscription taking message
+[DEBUG] [1789384370.587047779] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384370.591999967] [decompressor]: DecompressAndPublish time: 4057990 ns
+[DEBUG] [1789384370.784130867] [rcl]: Subscription taking message
+[DEBUG] [1789384370.784213939] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384370.789712030] [decompressor]: DecompressAndPublish time: 4386415 ns
+[DEBUG] [1789384370.987016875] [rcl]: Subscription taking message
+[DEBUG] [1789384370.987083757] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384370.992026635] [decompressor]: DecompressAndPublish time: 4051630 ns
+[DEBUG] [1789384371.163076054] [rcl]: Subscription taking message
+[DEBUG] [1789384371.163128679] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384371.166949426] [decompressor]: DecompressAndPublish time: 3169327 ns
+[DEBUG] [1789384371.389536039] [rcl]: Subscription taking message
+[DEBUG] [1789384371.389629477] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384371.395039486] [decompressor]: DecompressAndPublish time: 4299062 ns
+[DEBUG] [1789384371.588659391] [rcl]: Subscription taking message
+[DEBUG] [1789384371.588744462] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384371.593995167] [decompressor]: DecompressAndPublish time: 4145842 ns
+[DEBUG] [1789384371.792270526] [rcl]: Subscription taking message
+[DEBUG] [1789384371.792353642] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384371.798609403] [decompressor]: DecompressAndPublish time: 5140637 ns
+[DEBUG] [1789384371.992399683] [rcl]: Subscription taking message
+[DEBUG] [1789384371.992513945] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384371.998334142] [decompressor]: DecompressAndPublish time: 4705857 ns
+[DEBUG] [1789384372.189302429] [rcl]: Subscription taking message
+[DEBUG] [1789384372.189385746] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384372.194768348] [decompressor]: DecompressAndPublish time: 4266456 ns
+[DEBUG] [1789384372.392692405] [rcl]: Subscription taking message
+[DEBUG] [1789384372.392775825] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384372.398556203] [decompressor]: DecompressAndPublish time: 4664723 ns
+[DEBUG] [1789384372.592307574] [rcl]: Subscription taking message
+[DEBUG] [1789384372.592392153] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384372.597957649] [decompressor]: DecompressAndPublish time: 4447763 ns
+[DEBUG] [1789384372.792478882] [rcl]: Subscription taking message
+[DEBUG] [1789384372.792560798] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384372.798388397] [decompressor]: DecompressAndPublish time: 4723007 ns
+[DEBUG] [1789384372.993342213] [rcl]: Subscription taking message
+[DEBUG] [1789384372.993440048] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384372.998883996] [decompressor]: DecompressAndPublish time: 4329077 ns
+[DEBUG] [1789384373.189568277] [rcl]: Subscription taking message
+[DEBUG] [1789384373.189632290] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384373.192259643] [decompressor]: DecompressAndPublish time: 2177714 ns
+[DEBUG] [1789384373.393986535] [rcl]: Subscription taking message
+[DEBUG] [1789384373.394079908] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384373.399653852] [decompressor]: DecompressAndPublish time: 4461316 ns
+[DEBUG] [1789384373.594038456] [rcl]: Subscription taking message
+[DEBUG] [1789384373.594125949] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384373.599677978] [decompressor]: DecompressAndPublish time: 4444141 ns
+[DEBUG] [1789384373.797844238] [rcl]: Subscription taking message
+[DEBUG] [1789384373.797926214] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384373.803703971] [decompressor]: DecompressAndPublish time: 4676002 ns
+[DEBUG] [1789384373.997117013] [rcl]: Subscription taking message
+[DEBUG] [1789384373.997198902] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384374.003506112] [decompressor]: DecompressAndPublish time: 5203146 ns
+[DEBUG] [1789384374.198547406] [rcl]: Subscription taking message
+[DEBUG] [1789384374.198628256] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384374.204257661] [decompressor]: DecompressAndPublish time: 4528991 ns
+[DEBUG] [1789384374.399377143] [rcl]: Subscription taking message
+[DEBUG] [1789384374.399472333] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384374.405226871] [decompressor]: DecompressAndPublish time: 4653569 ns
+[DEBUG] [1789384374.599524327] [rcl]: Subscription taking message
+[DEBUG] [1789384374.599608011] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384374.605154617] [decompressor]: DecompressAndPublish time: 4430744 ns
+[DEBUG] [1789384374.799055617] [rcl]: Subscription taking message
+[DEBUG] [1789384374.799138371] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384374.804698788] [decompressor]: DecompressAndPublish time: 4446443 ns
+[DEBUG] [1789384374.999531647] [rcl]: Subscription taking message
+[DEBUG] [1789384374.999613965] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384375.004886447] [decompressor]: DecompressAndPublish time: 4167133 ns
+[DEBUG] [1789384375.202341033] [rcl]: Subscription taking message
+[DEBUG] [1789384375.202443294] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384375.208364342] [decompressor]: DecompressAndPublish time: 4796387 ns
+[DEBUG] [1789384375.402807830] [rcl]: Subscription taking message
+[DEBUG] [1789384375.402900094] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384375.409064173] [decompressor]: DecompressAndPublish time: 5049840 ns
+[DEBUG] [1789384375.602787524] [rcl]: Subscription taking message
+[DEBUG] [1789384375.602872085] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384375.608870751] [decompressor]: DecompressAndPublish time: 4867492 ns
+[DEBUG] [1789384375.803051736] [rcl]: Subscription taking message
+[DEBUG] [1789384375.803150049] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384375.809274495] [decompressor]: DecompressAndPublish time: 5023540 ns
+[DEBUG] [1789384376.003514875] [rcl]: Subscription taking message
+[DEBUG] [1789384376.003614960] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384376.009869898] [decompressor]: DecompressAndPublish time: 5151596 ns
+[DEBUG] [1789384376.202463538] [rcl]: Subscription taking message
+[DEBUG] [1789384376.202570289] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384376.208786191] [decompressor]: DecompressAndPublish time: 5134723 ns
+[DEBUG] [1789384376.404308352] [rcl]: Subscription taking message
+[DEBUG] [1789384376.404434314] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384376.410080099] [decompressor]: DecompressAndPublish time: 4217224 ns
+[DEBUG] [1789384376.603957461] [rcl]: Subscription taking message
+[DEBUG] [1789384376.604065604] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384376.609990958] [decompressor]: DecompressAndPublish time: 4819251 ns
+[DEBUG] [1789384376.804136300] [rcl]: Subscription taking message
+[DEBUG] [1789384376.804553320] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384376.810347826] [decompressor]: DecompressAndPublish time: 4386107 ns
+[DEBUG] [1789384377.007687585] [rcl]: Subscription taking message
+[DEBUG] [1789384377.007805381] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384377.013604836] [decompressor]: DecompressAndPublish time: 4772547 ns
+[DEBUG] [1789384377.207464463] [rcl]: Subscription taking message
+[DEBUG] [1789384377.207554360] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384377.213148983] [decompressor]: DecompressAndPublish time: 4580895 ns
+[DEBUG] [1789384377.376043357] [rcl]: Subscription taking message
+[DEBUG] [1789384377.376085023] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384377.378594826] [decompressor]: DecompressAndPublish time: 2107247 ns
+[DEBUG] [1789384377.580851869] [rcl]: Subscription taking message
+[DEBUG] [1789384377.580911989] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384377.583338487] [decompressor]: DecompressAndPublish time: 2080912 ns
+[DEBUG] [1789384377.812697322] [rcl]: Subscription taking message
+[DEBUG] [1789384377.812783680] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384377.818202626] [decompressor]: DecompressAndPublish time: 4430942 ns
+[DEBUG] [1789384378.008704784] [rcl]: Subscription taking message
+[DEBUG] [1789384378.008788954] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384378.014553572] [decompressor]: DecompressAndPublish time: 4796975 ns
+[DEBUG] [1789384378.208545678] [rcl]: Subscription taking message
+[DEBUG] [1789384378.208625742] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384378.214284842] [decompressor]: DecompressAndPublish time: 4714694 ns
+[DEBUG] [1789384378.412010539] [rcl]: Subscription taking message
+[DEBUG] [1789384378.412090593] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384378.418185519] [decompressor]: DecompressAndPublish time: 5157760 ns
+[DEBUG] [1789384378.607745854] [rcl]: Subscription taking message
+[DEBUG] [1789384378.607824093] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384378.613239259] [decompressor]: DecompressAndPublish time: 4481427 ns
+[DEBUG] [1789384378.811749901] [rcl]: Subscription taking message
+[DEBUG] [1789384378.811828035] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384378.817933583] [decompressor]: DecompressAndPublish time: 5170231 ns
+[DEBUG] [1789384379.012708919] [rcl]: Subscription taking message
+[DEBUG] [1789384379.012787899] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384379.018958917] [decompressor]: DecompressAndPublish time: 5209339 ns
+[DEBUG] [1789384379.208807909] [rcl]: Subscription taking message
+[DEBUG] [1789384379.208887002] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384379.214376871] [decompressor]: DecompressAndPublish time: 4511479 ns
+[DEBUG] [1789384379.387326596] [rcl]: Subscription taking message
+[DEBUG] [1789384379.387368775] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384379.390028850] [decompressor]: DecompressAndPublish time: 2265588 ns
+[DEBUG] [1789384379.617081257] [rcl]: Subscription taking message
+[DEBUG] [1789384379.617176004] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384379.623164795] [decompressor]: DecompressAndPublish time: 4971450 ns
+[DEBUG] [1789384379.813659092] [rcl]: Subscription taking message
+[DEBUG] [1789384379.813745544] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384379.819161495] [decompressor]: DecompressAndPublish time: 4428305 ns
+[DEBUG] [1789384380.017543987] [rcl]: Subscription taking message
+[DEBUG] [1789384380.017630651] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384380.024001336] [decompressor]: DecompressAndPublish time: 5408321 ns
+[DEBUG] [1789384380.217454287] [rcl]: Subscription taking message
+[DEBUG] [1789384380.217538768] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384380.223313395] [decompressor]: DecompressAndPublish time: 4804954 ns
+[DEBUG] [1789384380.417567379] [rcl]: Subscription taking message
+[DEBUG] [1789384380.417653254] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384380.424009021] [decompressor]: DecompressAndPublish time: 5364260 ns
+[DEBUG] [1789384380.617637961] [rcl]: Subscription taking message
+[DEBUG] [1789384380.617727691] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384380.623707755] [decompressor]: DecompressAndPublish time: 4986962 ns
+[DEBUG] [1789384380.818000076] [rcl]: Subscription taking message
+[DEBUG] [1789384380.818088954] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384380.823850343] [decompressor]: DecompressAndPublish time: 4762883 ns
+[DEBUG] [1789384381.018335380] [rcl]: Subscription taking message
+[DEBUG] [1789384381.018447684] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384381.024313716] [decompressor]: DecompressAndPublish time: 4843081 ns
+[DEBUG] [1789384381.218456991] [rcl]: Subscription taking message
+[DEBUG] [1789384381.218562613] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384381.224453902] [decompressor]: DecompressAndPublish time: 4840014 ns
+[DEBUG] [1789384381.422382184] [rcl]: Subscription taking message
+[DEBUG] [1789384381.422486607] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384381.428170201] [decompressor]: DecompressAndPublish time: 4370276 ns
+[DEBUG] [1789384381.621804011] [rcl]: Subscription taking message
+[DEBUG] [1789384381.621907307] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384381.628324066] [decompressor]: DecompressAndPublish time: 5380293 ns
+[DEBUG] [1789384381.822638656] [rcl]: Subscription taking message
+[DEBUG] [1789384381.822730716] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384381.828640281] [decompressor]: DecompressAndPublish time: 4590875 ns
+[DEBUG] [1789384382.019316244] [rcl]: Subscription taking message
+[DEBUG] [1789384382.019414336] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384382.024897174] [decompressor]: DecompressAndPublish time: 4437571 ns
+[DEBUG] [1789384382.222922078] [rcl]: Subscription taking message
+[DEBUG] [1789384382.223009664] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384382.229372007] [decompressor]: DecompressAndPublish time: 5082994 ns
+[DEBUG] [1789384382.422403279] [rcl]: Subscription taking message
+[DEBUG] [1789384382.422498357] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384382.428873562] [decompressor]: DecompressAndPublish time: 5089017 ns
+[DEBUG] [1789384382.624023047] [rcl]: Subscription taking message
+[DEBUG] [1789384382.624109361] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384382.629541753] [decompressor]: DecompressAndPublish time: 4409216 ns
+[DEBUG] [1789384382.823320933] [rcl]: Subscription taking message
+[DEBUG] [1789384382.823537296] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384382.828893412] [decompressor]: DecompressAndPublish time: 4287409 ns
+[DEBUG] [1789384383.026486392] [rcl]: Subscription taking message
+[DEBUG] [1789384383.026601519] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384383.032749871] [decompressor]: DecompressAndPublish time: 5095159 ns
+[DEBUG] [1789384383.226436978] [rcl]: Subscription taking message
+[DEBUG] [1789384383.226547512] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384383.232656152] [decompressor]: DecompressAndPublish time: 5094963 ns
+[DEBUG] [1789384383.427278991] [rcl]: Subscription taking message
+[DEBUG] [1789384383.427360076] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384383.433399288] [decompressor]: DecompressAndPublish time: 5068927 ns
+[DEBUG] [1789384383.599436077] [rcl]: Subscription taking message
+[DEBUG] [1789384383.599498460] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384383.603206516] [decompressor]: DecompressAndPublish time: 3114161 ns
+[DEBUG] [1789384383.799696814] [rcl]: Subscription taking message
+[DEBUG] [1789384383.799725923] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384383.802029350] [decompressor]: DecompressAndPublish time: 1941817 ns
+[DEBUG] [1789384384.027564157] [rcl]: Subscription taking message
+[DEBUG] [1789384384.027648509] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384384.033074205] [decompressor]: DecompressAndPublish time: 4438793 ns
+[DEBUG] [1789384384.228645426] [rcl]: Subscription taking message
+[DEBUG] [1789384384.228747352] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384384.234185957] [decompressor]: DecompressAndPublish time: 4430328 ns
+[DEBUG] [1789384384.429156557] [rcl]: Subscription taking message
+[DEBUG] [1789384384.429254498] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384384.434597157] [decompressor]: DecompressAndPublish time: 4322621 ns
+[DEBUG] [1789384384.628285409] [rcl]: Subscription taking message
+[DEBUG] [1789384384.628373747] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384384.633817717] [decompressor]: DecompressAndPublish time: 4410607 ns
+[DEBUG] [1789384384.824751614] [rcl]: Subscription taking message
+[DEBUG] [1789384384.824784286] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384384.827005528] [decompressor]: DecompressAndPublish time: 1855685 ns
+[DEBUG] [1789384385.032067192] [rcl]: Subscription taking message
+[DEBUG] [1789384385.032153351] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384385.038285292] [decompressor]: DecompressAndPublish time: 5093333 ns
+[DEBUG] [1789384385.232955805] [rcl]: Subscription taking message
+[DEBUG] [1789384385.233039434] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384385.238889184] [decompressor]: DecompressAndPublish time: 4840485 ns
+[DEBUG] [1789384385.432529795] [rcl]: Subscription taking message
+[DEBUG] [1789384385.432613269] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384385.438699635] [decompressor]: DecompressAndPublish time: 5073186 ns
+[DEBUG] [1789384385.606974144] [rcl]: Subscription taking message
+[DEBUG] [1789384385.607014139] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384385.609274609] [decompressor]: DecompressAndPublish time: 1892611 ns
+[DEBUG] [1789384385.806740203] [rcl]: Subscription taking message
+[DEBUG] [1789384385.806797207] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384385.809021571] [decompressor]: DecompressAndPublish time: 1884242 ns
+[DEBUG] [1789384386.032875973] [rcl]: Subscription taking message
+[DEBUG] [1789384386.032961884] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384386.038856428] [decompressor]: DecompressAndPublish time: 4959974 ns
+[DEBUG] [1789384386.207719354] [rcl]: Subscription taking message
+[DEBUG] [1789384386.207753143] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384386.212527472] [decompressor]: DecompressAndPublish time: 4387654 ns
+[DEBUG] [1789384386.433608788] [rcl]: Subscription taking message
+[DEBUG] [1789384386.433698318] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384386.438999258] [decompressor]: DecompressAndPublish time: 4342067 ns
+[DEBUG] [1789384386.637348148] [rcl]: Subscription taking message
+[DEBUG] [1789384386.637457029] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384386.643599355] [decompressor]: DecompressAndPublish time: 5156819 ns
+[DEBUG] [1789384386.837164540] [rcl]: Subscription taking message
+[DEBUG] [1789384386.837254323] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384386.842980646] [decompressor]: DecompressAndPublish time: 4727158 ns
+[DEBUG] [1789384387.038738354] [rcl]: Subscription taking message
+[DEBUG] [1789384387.038831776] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384387.044362984] [decompressor]: DecompressAndPublish time: 4514023 ns
+[DEBUG] [1789384387.238873505] [rcl]: Subscription taking message
+[DEBUG] [1789384387.238964444] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384387.244456147] [decompressor]: DecompressAndPublish time: 4480881 ns
+[DEBUG] [1789384387.443155414] [rcl]: Subscription taking message
+[DEBUG] [1789384387.443245213] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384387.449385679] [decompressor]: DecompressAndPublish time: 5130827 ns
+[DEBUG] [1789384387.636396238] [rcl]: Subscription taking message
+[DEBUG] [1789384387.636444075] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384387.638756432] [decompressor]: DecompressAndPublish time: 1918199 ns
+[DEBUG] [1789384387.828330765] [rcl]: Subscription taking message
+[DEBUG] [1789384387.828395361] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384387.830656623] [decompressor]: DecompressAndPublish time: 1837743 ns
+[DEBUG] [1789384388.013795451] [rcl]: Subscription taking message
+[DEBUG] [1789384388.013829308] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384388.016321047] [decompressor]: DecompressAndPublish time: 2112680 ns
+[DEBUG] [1789384388.246996610] [rcl]: Subscription taking message
+[DEBUG] [1789384388.247083165] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384388.252939868] [decompressor]: DecompressAndPublish time: 4836292 ns
+[DEBUG] [1789384388.441844200] [rcl]: Subscription taking message
+[DEBUG] [1789384388.441933786] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384388.448096721] [decompressor]: DecompressAndPublish time: 5141656 ns
+[DEBUG] [1789384388.642762967] [rcl]: Subscription taking message
+[DEBUG] [1789384388.642856804] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384388.649024175] [decompressor]: DecompressAndPublish time: 5146629 ns
+[DEBUG] [1789384388.842967513] [rcl]: Subscription taking message
+[DEBUG] [1789384388.843057412] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384388.848942242] [decompressor]: DecompressAndPublish time: 4860873 ns
+[DEBUG] [1789384389.043468644] [rcl]: Subscription taking message
+[DEBUG] [1789384389.043558661] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384389.049083521] [decompressor]: DecompressAndPublish time: 4521101 ns
+[DEBUG] [1789384389.247329044] [rcl]: Subscription taking message
+[DEBUG] [1789384389.247441081] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384389.253058401] [decompressor]: DecompressAndPublish time: 4604376 ns
+[DEBUG] [1789384389.453589094] [rcl]: Subscription taking message
+[DEBUG] [1789384389.453678741] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384389.459346554] [decompressor]: DecompressAndPublish time: 4637270 ns
+[DEBUG] [1789384389.648664583] [rcl]: Subscription taking message
+[DEBUG] [1789384389.648761769] [rcl]: Subscription take succeeded: true
+[DEBUG] [1789384389.654258894] [decompressor]: DecompressAndPublish time: 4476331 ns
+[INFO] [1789386489.938513927] [rclcpp]: signal_handler(signum=2)
+[DEBUG] [1789386489.938565870] [rclcpp]: signal_handler(): notifying deferred signal handler
+[DEBUG] [1789386489.938622963] [rclcpp]: deferred_signal_handler(): woken up due to SIGINT/SIGTERM or uninstall
+[DEBUG] [1789386489.938650780] [rclcpp]: deferred_signal_handler(): shutting down
+[DEBUG] [1789386489.938702871] [rclcpp]: deferred_signal_handler(): shutting down rclcpp::Context @ 0x6045f8c18440, because it had shutdown_on_signal == true
+[DEBUG] [1789386489.938719353] [rcl]: Shutting down ROS client library, for context at address: 0x6045f8bac3b0
+[DEBUG] [1789386489.938753833] [rcl]: Finalizing publisher
+[DEBUG] [1789386489.939044369] [rcl]: Publisher finalized
+[DEBUG] [1789386489.939112850] [rclcpp]: deferred_signal_handler(): waiting for SIGINT/SIGTERM or uninstall
+[DEBUG] [1789386489.939162005] [rclcpp]: SignalHandler::uninstall(): notifying deferred signal handler
+[DEBUG] [1789386489.939224253] [rclcpp]: deferred_signal_handler(): woken up due to SIGINT/SIGTERM or uninstall
+[DEBUG] [1789386489.939241097] [rclcpp]: deferred_signal_handler(): signal handling uninstalled
+[DEBUG] [1789386489.939359616] [rclcpp]: signal handler uninstalled
+[DEBUG] [1789386489.939690717] [rcl]: Finalizing event
+[DEBUG] [1789386489.939710909] [rcl]: Event finalized
+[DEBUG] [1789386489.939720011] [rcl]: Finalizing subscription
+[DEBUG] [1789386489.940061425] [rcl]: Subscription finalized
+[DEBUG] [1789386489.940077345] [rcl]: Finalizing event
+[DEBUG] [1789386489.940083509] [rcl]: Event finalized
+[DEBUG] [1789386489.940090440] [rcl]: Finalizing publisher
+[DEBUG] [1789386489.940280576] [rcl]: Publisher finalized
+[DEBUG] [1789386489.940304376] [rcl]: Finalizing event
+[DEBUG] [1789386489.940310659] [rcl]: Event finalized
+[DEBUG] [1789386489.940316437] [rcl]: Finalizing subscription
+[DEBUG] [1789386489.940433685] [rcl]: Subscription finalized
+[DEBUG] [1789386489.940456378] [rcl]: Finalizing service
+[DEBUG] [1789386489.940626064] [rcl]: Service finalized
+[DEBUG] [1789386489.940639255] [rcl]: Finalizing service
+[DEBUG] [1789386489.940790963] [rcl]: Service finalized
+[DEBUG] [1789386489.940804126] [rcl]: Finalizing service
+[DEBUG] [1789386489.940950900] [rcl]: Service finalized
+[DEBUG] [1789386489.940964055] [rcl]: Finalizing service
+[DEBUG] [1789386489.941078985] [rcl]: Service finalized
+[DEBUG] [1789386489.941091501] [rcl]: Finalizing service
+[DEBUG] [1789386489.941195556] [rcl]: Service finalized
+[DEBUG] [1789386489.941207366] [rcl]: Finalizing service
+[DEBUG] [1789386489.941303635] [rcl]: Service finalized
+[DEBUG] [1789386489.941317957] [rcl]: Finalizing event
+[DEBUG] [1789386489.941324250] [rcl]: Event finalized
+[DEBUG] [1789386489.941330160] [rcl]: Finalizing publisher
+[DEBUG] [1789386489.941405923] [rcl]: Publisher finalized
+[DEBUG] [1789386489.941452520] [rcl]: Finalizing node
+[DEBUG] [1789386489.943286659] [rcl]: Node finalized

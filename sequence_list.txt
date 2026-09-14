@@ -1,0 +1,5 @@
+/seagate_dataset/NewerCollege/underground_mine/bag/ros2_underground_easy/underground_easy/
+/seagate_dataset/NewerCollege/stairs/bag/ros2_stairs/stairs/
+/seagate_dataset/NewerCollege/quad_easy/bag/ros2_quad_easy/quad_easy/
+/seagate_dataset/NewerCollege/maths_institute/bag/ros2_maths_institute/maths_easy/
+/seagate_dataset/NewerCollege/cloister/bag/ros2_cloister/cloister/
