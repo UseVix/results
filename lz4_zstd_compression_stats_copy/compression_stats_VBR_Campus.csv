@@ -1,0 +1,3 @@
+topic,method,ratio,time_usec,decompress_usec,uncompressed_MB,compressed_MB
+/ouster/points_decim_1,LZ4 only,0.861322,5091,2574,1.8125,1.56115
+/ouster/points_decim_1,ZSTD only,0.680651,7099,3891,1.8125,1.23368

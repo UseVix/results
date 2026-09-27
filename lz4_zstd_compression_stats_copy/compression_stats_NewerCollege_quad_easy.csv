@@ -1,0 +1,3 @@
+topic,method,ratio,time_usec,decompress_usec,uncompressed_MB,compressed_MB
+/os_cloud_node/points_decim_1,LZ4 only,0.502807,10693,5524,6,3.01684
+/os_cloud_node/points_decim_1,ZSTD only,0.413919,13841,8156,6,2.48352
